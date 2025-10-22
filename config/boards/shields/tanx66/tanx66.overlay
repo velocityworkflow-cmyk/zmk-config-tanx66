@@ -49,7 +49,7 @@
     };
 };
 
-&spi2 {
+&spi1 {
     status = "okay";
     cs-gpios = <&gpio0 24 GPIO_ACTIVE_LOW>;
     shifter: 595@0 {

@@ -23,10 +23,10 @@
     pinctrl-names = "default", "sleep";
 };
 
-&spi2 {
+&spi1 {
     compatible = "nordic,nrf-spim";
-    pinctrl-0 = <&spi2_default>;
-    pinctrl-1 = <&spi2_sleep>;
+    pinctrl-0 = <&spi1_default>;
+    pinctrl-1 = <&spi1_sleep>;
     pinctrl-names = "default", "sleep";
 };
 
