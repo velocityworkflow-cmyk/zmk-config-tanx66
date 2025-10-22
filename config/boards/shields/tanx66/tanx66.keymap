@@ -10,19 +10,6 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    behaviors {
-        del_soft_off: del_soft_off {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <0>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <300>;
-            require-prior-idle-ms = <150>;
-            bindings = <&soft_off>, <&kp DEL>;
-        };
-    };
-};
-
-/ {
     keymap {
         compatible = "zmk,keymap";
 
